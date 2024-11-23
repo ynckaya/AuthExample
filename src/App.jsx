@@ -4,7 +4,7 @@ import { BrowserRouter as Router, Route, Redirect, Switch } from "react-router-d
 import LoginForm from "./components/LoginForm"; // LoginForm bileşenini dahil ettik
 import Dashboard from "./components/Dashboard";
 
-// Kullanıcılar verileri (örnek) - test
+// Kullanıcılar verileri (örnek)
 const users = [
   { username: "admin", password: "1234", role: "admin" },
   { username: "user", password: "1234", role: "user" },
